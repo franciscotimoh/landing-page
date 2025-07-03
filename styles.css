@@ -3,3 +3,41 @@
 Notes here
 
 */
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0; 
+    height: 100vh;
+}
+
+/* header */
+
+.header {
+    background-color: #1f2937;
+    padding: 16px 160px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none; 
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0;
+    margin: 0; 
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.header a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/* content */
+
