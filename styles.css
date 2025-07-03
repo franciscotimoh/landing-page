@@ -174,3 +174,12 @@ button {
 .banner button {
     border: 2px solid #e5e7eb;
 }
+
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 32px;
+    text-align: center;
+}
