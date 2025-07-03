@@ -131,3 +131,27 @@ button {
     border-radius: 16px;
     border: 4px solid #3882f6;
 }
+
+/* quote */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 160px 320px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    align-self: center;
+}
+
+.quote-person {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-right: 56px;
+    text-align: right;
+}
