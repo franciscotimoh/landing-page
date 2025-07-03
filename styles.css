@@ -136,8 +136,6 @@ button {
 
 .quote {
     background-color: #e5e7eb;
-    display: flex;
-    flex-direction: column;
     padding: 160px 320px;
 }
 
@@ -145,13 +143,34 @@ button {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    align-self: center;
 }
 
 .quote-person {
     font-size: 24px;
     font-weight: bold;
     padding-top: 12px;
-    padding-right: 56px;
+    padding-right: 60px;
     text-align: right;
+}
+
+/* banner */
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 40px 0;
+    margin: 80px 160px;
+    border-radius: 8px;
+}
+
+.banner-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner button {
+    border: 2px solid #e5e7eb;
 }
